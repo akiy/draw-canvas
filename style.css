@@ -21,6 +21,7 @@ html {
 	padding: 1rem 2rem;
 	cursor: pointer;
 	margin-top: 2rem;
+	text-transform: uppercase;
 }
 
 .btn-clear:hover {
@@ -36,9 +37,9 @@ html {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	outline: 1px solid #333;
+	outline: 1px solid #E3DAFF;
 }
 
 div:hover {
-	background-color: #333;
+	background-color: #963D5A;
 }
