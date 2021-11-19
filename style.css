@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+.btn-clear {
+	display: block;
+	color: #fff;
+	background-color: #4a6cf7;
+	border: none;
+	border-radius: 4px;
+	padding: 1rem 2rem;
+	cursor: pointer;
+	margin-top: 2rem;
+}
+
+.btn-clear:hover {
+	background-color: #3e5acf;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.canvas{
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	outline: 1px solid #333;
+}
+
+div:hover {
+	background-color: #333;
+}
